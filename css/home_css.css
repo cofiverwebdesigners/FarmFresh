@@ -77,7 +77,8 @@
 	.My_images{
 		width:800%;
 		height:50vh;
-		position:relative;		
+		position:relative;	
+		animation:20s anime2 1 forwards;
 	}
 	.my_image{
 		width:13%;
@@ -85,6 +86,7 @@
 		float:left;
 		margin-right:2%;
 		margin-bottom:2%;
+		background:purple;
 	}
 	.my_image img{
 		width:70%;
@@ -150,6 +152,71 @@
 	}
 	#caption{
 		margin-top:-5%;
+	}
+	@keyframes anime2{
+    0%{
+        left:20;
+    }
+    5%{
+        left:20;
+    }
+    10%{
+        left:-110%;
+    }
+    15%{
+        left:-110%;
+    }
+    20%{
+        left:-200%;
+    }
+    25%{
+        left:-200%;
+    }
+    30%{
+        left:-290%;
+    }
+    35%{
+        left:-290%;
+    }
+    40%{
+        left:-380%;
+    }
+    50%{
+        left:-380%;
+    }
+    55%{
+        left:-470%;
+    }
+    60%{
+        left:-470%;
+    }
+    65%{
+        left:-560%;
+    }
+	65%{
+        left:-560%;
+    }
+	70%{
+        left:-470%;
+    }
+	75%{
+        left:-470%;
+    }
+	80%{
+        left:-380%;
+    }
+    85%{
+        left:-380%;
+    }
+	90%{
+        left:-290%;
+    }
+	95%{
+        left:-290%;
+    }
+	100%{
+        left:-200%;
+    }
 	}
 
 }
